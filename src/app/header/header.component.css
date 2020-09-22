@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .header {
     background-image: url(../../assets/coding-924920_1920.jpg);
     width: 100%;
@@ -16,7 +17,7 @@
 
 .name{
     font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Pacifico', cursive;
     font-weight: 500;
     margin: 4px;
     color: #ecf5ee;
@@ -24,8 +25,8 @@
 
 .title{
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
     color: #b9fdfd;
 }
 
