@@ -1,8 +1,57 @@
 .content{
     display: flex;
-    align-items: center;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    margin: 15px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
     justify-content: center;
 }
-/* .card{
-    
-} */
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.myphoto{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+}
+
+.description{
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 1px;
+}
+
+.title{
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+}
+.column{
+    flex-direction: column;
+}
+@media(min-width:992px){
+    .card{
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+}
+@media(max-width:576px){
+    .card{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
