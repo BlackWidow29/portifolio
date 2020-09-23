@@ -84,4 +84,7 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .card-skill{
+        min-width: 25%;
+    }
 }
