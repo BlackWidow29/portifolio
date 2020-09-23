@@ -62,7 +62,7 @@
     transition: color 0.3s ease-out;
 } */
 
-.nav-link:hover, .footer-link:hover {
+.nav-link:hover {
     opacity: 1;
 }
 
@@ -74,20 +74,13 @@
     background-image: linear-gradient(to right, #ddcea0, #decc97, #dfcb8f, #dfc986, #e0c77d);
 }
 
-.footer-link::before {
-    transition: 300ms;
-    height: 5px;
-    content: "";
-    position: absolute;
-    background-image: linear-gradient(to right, #477abd, #4175b8, #3b70b2, #356cad, #2e67a8, #2963a3, #245f9f, #1e5b9a, #185695, #115290, #094d8c, #004987);
-}
 
-.nav-link-ltr::before, .footer-link::before {
+.nav-link-ltr::before{
     width: 0%;
     bottom: 10px;
 }
 
-.nav-link-ltr:hover::before, .footer-link:hover::before {
+.nav-link-ltr:hover::before {
     width: 100%;
 }
 
