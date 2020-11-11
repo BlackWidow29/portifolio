@@ -11,8 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { MessageService } from './Message.service';
 import { CareerComponent } from './career/career.component';
-import { PotifolioComponent } from './potifolio/potifolio.component';
-import { PortifolioComponent } from './portifolio/portifolio.component';
+import { PortifolioComponent } from './portifólio/portifolio.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { PortifolioComponent } from './portifolio/portifolio.component';
     HomeComponent,
     ContactComponent,
     CareerComponent,
-    PotifolioComponent,
     PortifolioComponent
   ],
   imports: [
